@@ -52,7 +52,7 @@ document.querySelector('button.paspausk').addEventListener('click', function(){
         return document.querySelector('h3').innerText = sum;
     })
     //-----------------------------3
-let a = document.querySelector('ul')
+ ulTag = document.querySelector('ul')
 let li ;
 {/*//for(i=0;i<africa.length;i++){
   li.textContent = africa[i]
@@ -61,6 +61,7 @@ let li ;
 }*/}
 
 africa.forEach(function(a, li){a.appendChild(li)})
+
 
    
 
