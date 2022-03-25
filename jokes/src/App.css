@@ -1,0 +1,18 @@
+div.card{
+    border: none;
+}
+button.btn .btn-invisible{
+    border: none;
+    box-shadow:unset;
+}
+button{
+    margin-top: 20px;
+    border: unset;
+}
+ button.btn-invisible:active{
+    border: none; 
+    box-shadow: none;  
+    transition-property: none;
+    outline: none; 
+
+} 
